@@ -7,7 +7,7 @@ const containerId: string = "root";
 function getAppRoot(): HTMLElement {
     const element = document.getElementById(containerId);
 
-    if (element != null) {
+    if (element !== null) {
         return element;
     }
 
