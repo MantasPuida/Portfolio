@@ -10,6 +10,8 @@
         "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
         "react/jsx-boolean-value": ["warn", "always"],
         "react/require-default-props": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/state-in-constructor": "off",
         "import/extensions": ["warn", "never"],
         "import/no-unresolved": "off",
         "import/prefer-default-export": "off"

@@ -1,5 +1,9 @@
 @import "@fontsource/roboto/latin.css";
 
 #root {
-    min-height: 100vh;
+    min-height: 1000vh;
+}
+
+body {
+    margin: 0;
 }
