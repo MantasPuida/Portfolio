@@ -1,0 +1,15 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["@typescript-eslint", "prettier"],
+    "rules": {
+        "prettier/prettier": ["warn"],
+        "arrow-body-style": "off",
+        "prefer-arrow-callback": "off",
+        "no-undef": "off",
+        "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
+        "import/extensions": ["warn", "never"],
+        "import/no-unresolved": "off",
+        "import/prefer-default-export": "off"
+    }
+}
