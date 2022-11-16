@@ -8,6 +8,7 @@
         "prefer-arrow-callback": "off",
         "no-undef": "off",
         "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
+        "react/jsx-boolean-value": ["warn", "always"],
         "import/extensions": ["warn", "never"],
         "import/no-unresolved": "off",
         "import/prefer-default-export": "off"

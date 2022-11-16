@@ -27,13 +27,11 @@
             "last 1 safari version"
         ]
     },
-    "lint-staged": {
-        "*.js": [
-            "eslint",
-            "prettier --write"
-        ]
-    },
     "dependencies": {
+        "@emotion/react": "11.10.5",
+        "@emotion/styled": "11.10.5",
+        "@fontsource/roboto": "4.5.8",
+        "@mui/material": "5.10.14",
         "@types/node": "16.18.3",
         "@types/react": "18.0.25",
         "@types/react-dom": "18.0.9",
